@@ -1,0 +1,132 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #eabd37;
+    align-items: center;
+    margin: 20px auto;
+    height: 400px;
+    width: 950px;
+   
+}
+
+.container img{
+    
+    max-width: 200px;
+    height: 270px;
+    /* border: 1px solid #eabd37 ; */
+    margin: 30px 20px;
+    width: 100%;
+    padding-right: 40px;
+    border-radius: 6px;
+    filter: drop-shadow(-0.6px -0.8px 80px #cfb872);
+
+
+}
+.poster-details{
+    margin: 10px 20px;
+}
+.buttons{
+    display: flex;
+    margin-left: 10px;
+    text-align: center;
+}
+.red-btn{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 12px 20px;
+    color:#ffffff;
+    border: none;
+    outline: none;
+    background-color:#c81313 ;
+    border-radius: 10px;
+    gap: 3px;
+    font-size: 14px;
+    width: 130px;
+    height: 40px;
+  
+}
+.yellow-btn{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 12px 13px;
+    color:#0c0c0c;
+    border: none;
+    outline: none;
+    background-color: #eabd37;
+    border-radius: 10px;
+    gap: 3px;
+    font-size: 14px;
+    width: 130px;
+    height: 40px;
+    /* text-align: center; */
+    
+}
+
+.poster-details p{
+    
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 16px;
+    color:#f9f9f9;
+    width: 400px;
+    text-align: start;
+}
+.poster-details h1{
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: start;
+    color:#eabd37;
+}
+.rail1{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    /* justify-content: space-between; */
+
+}
+
+.rail1::-webkit-scrollbar{
+    display:none;
+}
+
+
+.rail-movie img{
+    height: 220px;
+    width: 170px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+.rail-movie h6{
+    /* text-align: center; */
+    width: fit-content;
+    color: rgb(213, 213, 86);
+
+
+}
+.rail-movie{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+#tag{
+    color: rgb(213, 213, 86);
+    position: relative;
+    text-align: start;
+    margin-left: 30px;
+    font-size: 30px;
+}
