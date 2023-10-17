@@ -1,6 +1,7 @@
 form{
     box-sizing: border-box;
-    max-width: 350px;
+    max-width: 450px;
+    height: 600px;
     color: #f2df60;
     margin: 70px auto;
 }
