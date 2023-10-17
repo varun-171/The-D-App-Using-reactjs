@@ -1,0 +1,96 @@
+.row{
+    margin-left: 10px;
+    margin-top: 15px;
+    position: relative;
+    top: 5px;
+    color: rgb(213, 213, 86);
+
+}
+.heading h4{
+    left:60px;
+    position: relative;
+    font-size: 30px;
+    width:fit-content;
+    color:rgb(213, 213, 86);
+    margin-left: 5px;
+    
+}
+
+
+.card{
+    max-height: 100px;
+    margin-left: 5px;
+}
+.rail{
+    margin-top: 10px;
+}
+
+
+.new-row{
+    margin-left: 10px;
+    margin-top: 15px;
+    position: relative;
+    top: 5px;
+    color: rgb(213, 213, 86);
+
+}
+
+
+
+.list-movies{
+   display: flex;
+   flex-wrap:wrap;
+   margin: 10px 50px;
+   
+}
+
+.new-rail{
+    margin-top: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* align-items: flex-start; */
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+.new-rail h6{
+    /* float: left; */
+    margin-top: 5px;
+    width:170px;
+    padding: 0 5px;
+    color:rgb(213, 213, 86) ;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+
+}
+
+.new-rail::-webkit-scrollbar{
+    display:none;
+}
+.image-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-card{
+    height: 220px;
+    width: 170px;
+    margin-left: 5px;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-data-{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.rail h4{
+    width: fit-content;
+    position: relative;
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
