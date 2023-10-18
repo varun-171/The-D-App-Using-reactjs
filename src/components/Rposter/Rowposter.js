@@ -44,7 +44,7 @@ function Rowposter(props) {
                 )
                 console.log(newfilter)
                 if(newfilter==0){
-                    return <h1>oops no movie</h1>
+                    return <div className='oops-div'><h1 className='oops'>oops no movie</h1></div>
                 }
         }
         
