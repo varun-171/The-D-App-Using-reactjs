@@ -43,11 +43,11 @@ function Rowposter(props) {
                  return store.includes(search)}
                 )
                 console.log(newfilter)
+                if(newfilter==0){
+                    return <h1>oops no movie</h1>
+                }
+        }
         
-        }
-        if(newfilter==0){
-            return <h1>oops no movie</h1>
-        }
 if(searchedData && newfilter!=0 ){
     return(
         <div className='search-data-'>
