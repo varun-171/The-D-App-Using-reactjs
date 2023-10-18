@@ -45,7 +45,10 @@ function Rowposter(props) {
                 console.log(newfilter)
         
         }
-if(searchedData ){
+        if(newfilter==0){
+            return <h1>oops no movie</h1>
+        }
+if(searchedData && newfilter!=0 ){
     return(
         <div className='search-data-'>
         <div className='heading'>
