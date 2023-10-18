@@ -7,8 +7,6 @@ const Login = () => {
     // const navigate=useNavigate();
     const username=useRef()
     const password=useRef()
-    const userN='abc@gmail.com'
-    const pass='12345'
     const getEmail=localStorage.getItem("usernameData")
     const getPassword=localStorage.getItem("passwordData")
     const handleSubmit=()=>{
@@ -29,10 +27,10 @@ const Login = () => {
             <b>Login to your Account</b>
             </div>
             <div>
-                <input className='login-input' type="text" placeholder='Username' value={userN} ref={username}/>
+                <input className='login-input' type="text" placeholder='Username' value='abc@gmail.com' ref={username}/>
             </div>
             <div>
-                <input className='login-input' type="password" placeholder='Password' value={pass} ref={password}/>
+                <input className='login-input' type="password" placeholder='Password' value='12345' ref={password}/>
             </div>
             <div>
             <button className='login-btn'onClick={handleSubmit}>Log in</button>
