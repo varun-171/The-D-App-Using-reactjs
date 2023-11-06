@@ -13,12 +13,11 @@ const Login = () => {
         if(username.current.value=="abc@gmail.com" && password.current.value=="12345"){
             localStorage.setItem("usernameData","abc@gmail.com")
             localStorage.setItem("passwordData","12345")
-            alert("You have logged successfully");
         }
-        // console.log(localStorage.getItem("usernameData"))
     }
     return (
     <div>
+    {/* if username and password is correct,go to home */}
     {   getEmail&&getPassword?<Home/> :
         <form>
         <div className='login-container'>
